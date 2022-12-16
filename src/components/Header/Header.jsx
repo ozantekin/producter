@@ -11,8 +11,9 @@ export default function Header() {
     <header className='header'>
       <div className='header-container'>
         <div className='logo-container'>
-          <img src={ProducterLogo} alt='Prdoucter Logo' />
           <div className='line-9'></div>
+          <img src={ProducterLogo} alt='Prdoucter Logo' />
+          <div className='line-6'></div>
         </div>
         <div className='search-container'>
           <nav className='search-navigation'>
@@ -21,7 +22,7 @@ export default function Header() {
                 <button>
                   <img src={SearchIcon} alt='Search Icon' />
                 </button>
-                <input type='search' placeholder='Search' />
+                <input type='text' placeholder='Search' />
               </li>
               <li className='control-button'>
                 <button>
@@ -40,6 +41,7 @@ export default function Header() {
               <img src={PlusIcon} alt='Plus Icon' />
             </button>
           </div>
+          <div className='line-6'></div>
         </div>
       </div>
     </header>

@@ -1,11 +1,12 @@
 import Header from './components/Header/Header.jsx'
-import Menu from './components/Menu/Menu.jsx'
+import LeftMenu from './components/LeftMenu/Left-Menu.jsx'
+import './styles/App.scss'
 
 export default function App() {
   return (
-    <div>
+    <div className='App'>
       <Header />
-      <Menu />
+      <LeftMenu />
     </div>
   )
 }
